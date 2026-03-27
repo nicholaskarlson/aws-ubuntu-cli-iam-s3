@@ -79,3 +79,19 @@ Before running real AWS commands, read:
 ## Companion book
 
 The private manuscript repo explains this public repo step by step. The public repo remains useful on its own, but the book provides the narrative path.
+
+## Book 1 implementation target
+
+This first repo teaches:
+
+- Ubuntu-first AWS CLI setup
+- safe separation of root ownership from daily work
+- named CLI profile setup
+- minimal IAM policy thinking
+- one proof-first S3 smoke walkthrough
+- cleanup and cost control habits
+
+## Current status
+
+Scaffold is in place.
+Next milestone is a complete beginner-safe walkthrough that can be followed on Ubuntu with minimal spend.
