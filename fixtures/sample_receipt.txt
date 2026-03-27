@@ -1,0 +1,4 @@
+aws --version
+python3 --version
+git --version
+uname -a
