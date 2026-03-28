@@ -102,6 +102,14 @@ Read these first:
 - `docs/account-setup-checklist.md`
 - `docs/verify.md`
 
+## Verified status
+
+This repo has been verified against a live AWS account using:
+- profile: `book1-admin`
+- region: `ca-central-1`
+
+The S3 smoke workflow has completed successfully end to end.
+
 ## Companion book
 
 The private manuscript repo explains this public repo step by step. The public repo remains useful on its own, but the book provides the narrative path.
