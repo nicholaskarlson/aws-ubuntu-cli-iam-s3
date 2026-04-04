@@ -46,11 +46,11 @@ Checks:
 ## Walkthrough 4 — Named profile setup
 
 Goal:
-use a named CLI profile such as `book1` for daily work.
+use a named CLI profile such as `book1-admin` for daily work.
 
 Checks:
-- `aws configure --profile book1`
-- `aws sts get-caller-identity --profile book1`
+- `aws configure --profile book1-admin`
+- `aws sts get-caller-identity --profile book1-admin`
 
 ## Walkthrough 5 — S3 smoke flow
 
@@ -58,10 +58,10 @@ Goal:
 run one safe end-to-end object-storage exercise.
 
 Plan mode:
-- `bash scripts/s3_smoke.sh --profile book1 --region us-east-1 --plan`
+- `bash scripts/s3_smoke.sh --profile book1-admin --region ca-central-1 --plan`
 
 Execute mode:
-- `bash scripts/s3_smoke.sh --profile book1 --region us-east-1 --execute`
+- `bash scripts/s3_smoke.sh --profile book1-admin --region ca-central-1 --execute`
 
 Expected flow:
 - create a unique bucket

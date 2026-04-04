@@ -64,13 +64,13 @@ bash scripts/check_aws_cli.sh
 Plan only:
 
 ```bash
-bash scripts/s3_smoke.sh --profile book1 --region us-east-1 --plan
+bash scripts/s3_smoke.sh --profile book1-admin --region ca-central-1 --plan
 ```
 
 Real execution:
 
 ```bash
-bash scripts/s3_smoke.sh --profile book1 --region us-east-1 --execute
+bash scripts/s3_smoke.sh --profile book1-admin --region ca-central-1 --execute
 ```
 
 The script creates a unique temporary bucket name, uploads one small text file, lists it, downloads it, deletes it, and removes the bucket.
