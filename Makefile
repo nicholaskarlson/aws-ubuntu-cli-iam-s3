@@ -9,4 +9,4 @@ preflight:
 	bash scripts/check_aws_cli.sh
 
 smoke-plan:
-	bash scripts/s3_smoke.sh --profile book1 --region us-east-1 --plan
+	bash scripts/s3_smoke.sh --profile book1-admin --region ca-central-1 --plan
