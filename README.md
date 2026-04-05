@@ -12,6 +12,8 @@ This repository teaches a careful, Ubuntu-first, proof-first beginner workflow f
 - performing a small S3 smoke walkthrough from the command line
 - cleaning up safely
 
+By the end of this workflow, you will have completed a real Ubuntu-to-AWS CLI path: you will verify your local environment, configure a named non-root AWS profile, run a small end-to-end S3 smoke test, and clean up safely.
+
 ## Status
 
 This repo is now past the bare scaffold stage.
